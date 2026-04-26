@@ -43,4 +43,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     3. create routing group:
           -> (auth) > login, > register, layout.jsx
           -> (main) > news, page.js, layout.jsx 
+    4. Design Header and install date fns package
+    5. Design Not found page: not-found.jsx
+    6. set google fonts in layout : 
+        const poppins = Poppins({
+            variable: "--font-poppins",
+            subsets: ['latin'],
+            weight: ['400', '500', '600', '700'],
+        })
+     and use it in body as dynamic value className={`${poppins.className}`}
+    
  -->
