@@ -52,5 +52,6 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
             weight: ['400', '500', '600', '700'],
         })
      and use it in body as dynamic value className={`${poppins.className}`}
+    7. install react marquee for breaking news section
     
  -->
