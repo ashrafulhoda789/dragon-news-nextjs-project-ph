@@ -52,6 +52,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
             weight: ['400', '500', '600', '700'],
         })
      and use it in body as dynamic value className={`${poppins.className}`}
-    7. install react marquee for breaking news section
-    
+    7. install react marquee for breaking news section and design it with dummy data
+    8. Navbar designed and about us and career page
+    9. Create a client NavLink component and use this instead of Link in Navbar
+
  -->
