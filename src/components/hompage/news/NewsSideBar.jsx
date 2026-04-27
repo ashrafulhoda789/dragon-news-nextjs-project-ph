@@ -6,7 +6,7 @@ import { IoIosStar } from "react-icons/io";
 
 
 const NewsSideBar = ({ news }) => {
-    console.log(news);
+    // console.log(news);
     return (
         <div className="card bg-base-100  shadow-sm">
             <div className="card-body">
