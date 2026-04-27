@@ -54,6 +54,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
      and use it in body as dynamic value className={`${poppins.className}`}
     7. install react marquee for breaking news section and design it with dummy data
     8. Navbar designed and about us and career page
-    9. Create a client NavLink component and use this instead of Link in Navbar
-
+    9. Create a client NavLink component to apply active style nav link and use this instead of Link in Navbar
+    10. All categories data fetch in homepage. and designed grid layout
+    
  -->
