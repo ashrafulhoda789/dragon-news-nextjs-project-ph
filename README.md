@@ -59,6 +59,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     11. Create components for all grid of homepage and designed.
     12. create a dynamic route category for all news showing to All news section. (main) > category > [id] > page.jsx
     13. redirect homepage to first category_id
+    14. create a data.js for all fetching function. lib > data.js
+    15. Create NewsSidebar component and designed it with dynamic value
+    
 
     
  -->
