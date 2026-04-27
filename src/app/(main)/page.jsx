@@ -1,4 +1,5 @@
 import LeftSideBar from "@/components/hompage/news/LeftSideBar";
+import RightSideBar from "@/components/hompage/news/RightSideBar";
 import Image from "next/image";
 
 const getCategories = async()=>{
@@ -17,11 +18,11 @@ export default async function Home() {
         <div className="col-span-3">
             <LeftSideBar categories={categories} activeId={null}></LeftSideBar>
         </div>
-        <div className="font-bold text-3xl bg-red-100 col-span-6">
+        <div className="col-span-6">
             All News
         </div>
-        <div className="font-bold text-3xl bg-purple-100 col-span-3">
-            Social 
+        <div className=" col-span-3">
+            <RightSideBar></RightSideBar> 
         </div>
         
     </div>

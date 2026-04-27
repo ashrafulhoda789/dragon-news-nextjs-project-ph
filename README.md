@@ -56,7 +56,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     8. Navbar designed and about us and career page
     9. Create a client NavLink component to apply active style nav link and use this instead of Link in Navbar
     10. All categories data fetch in homepage. and designed grid layout
-    11. Create components for all grid of homepage
-    
+    11. Create components for all grid of homepage and designed.
+
     
  -->
