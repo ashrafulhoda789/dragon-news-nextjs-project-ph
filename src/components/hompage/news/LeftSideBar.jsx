@@ -9,8 +9,8 @@ const LeftSideBar = ({ categories, activeId }) => {
                 {
                     categories.map(category => {
                         return <li key={category.category_id}
-                            className={`${activeId === category.category_id && 'bg-slate-100'} p-2 rounded-md font-bold text-center text-md dark3`}>
-                                <Link href={`/category/${category.category_id}`} className="p-2 block">
+                            className={`${activeId === category.category_id && 'bg-gray-200 text-gray-900'} p-2 rounded-sm font-semi-bold text-md text-gray-500`}>
+                                <Link href={`/category/${category.category_id}`} className="block">
                                 {""}
                                 {category.category_name}</Link>
                             </li>

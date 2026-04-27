@@ -57,6 +57,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     9. Create a client NavLink component to apply active style nav link and use this instead of Link in Navbar
     10. All categories data fetch in homepage. and designed grid layout
     11. Create components for all grid of homepage and designed.
+    12. create a dynamic route category for all news showing to All news section. (main) > category > [id] > page.jsx
+    13. redirect homepage to first category_id
 
     
  -->
