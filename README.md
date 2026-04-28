@@ -62,6 +62,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     14. create a data.js for all fetching function. lib > data.js
     15. Create NewsSidebar component and designed it with dynamic value
     16. create loading fallback from daisyUI
+    17. news detail page designed with fetch the data
     
 
     
