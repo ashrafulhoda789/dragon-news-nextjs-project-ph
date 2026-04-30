@@ -29,7 +29,7 @@ const Navbar = () => {
                 user ? (
                     <div className="flex gap-5 items-center">
                         <h2>Hello, {user?.name}</h2>
-                        <Image src={user?.image || userAvatar} alt="user avatar" width={60} height={60}></Image>
+                        <Image className="rounded-full" src={user?.image || userAvatar} alt="user avatar" width={60} height={60}></Image>
                         <button className="btn btn-primary" onClick={async()=> await authClient.signOut()}>Logout</button>
                     </div>
                 ):

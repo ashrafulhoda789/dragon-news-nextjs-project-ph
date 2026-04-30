@@ -78,6 +78,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     7. Connect and setup database for signUp
     8. setup for login
     9. Showed user data in Navbar dynamically using useSession()
+    10. password see button add and toggle
 
     
  -->
