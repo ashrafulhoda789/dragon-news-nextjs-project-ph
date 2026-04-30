@@ -68,7 +68,14 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     ----------------------------------------Authentication---------------------------------------------
     1. Design Login and register page
     2. Install better auth and create .env file and set -> BETTER_AUTH_SECRET and BETTER_AUTH_URL
-
+    3. Create better auth instance
+        > lib/auth.js
+    4. configure database -> install mongoDB and mongoDB adapter. and generate connection string
+    5. setup Mount Handler
+        > app/api/auth/[...all]/route.js
+    6. setup client instance
+        > lib/auth-client.js 
+    7. 
     
 
     
