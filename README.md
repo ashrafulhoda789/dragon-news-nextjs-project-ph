@@ -75,8 +75,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
         > app/api/auth/[...all]/route.js
     6. setup client instance
         > lib/auth-client.js 
-    7. 
-    
+    7. Connect and setup database for signUp
+    8. setup for login
+    9. Showed user data in Navbar dynamically using useSession()
 
     
  -->
