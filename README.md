@@ -63,6 +63,12 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     15. Create NewsSidebar component and designed it with dynamic value
     16. create loading fallback from daisyUI
     17. news detail page designed with fetch the data
+    19. add metadata with title and description 
+
+    ----------------------------------------Authentication---------------------------------------------
+    1. Design Login and register page
+    2. Install better auth and create .env file and set -> BETTER_AUTH_SECRET and BETTER_AUTH_URL
+
     
 
     
