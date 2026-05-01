@@ -9,15 +9,16 @@ const RightSideBar = () => {
         const data = await authClient.signIn.social({
             provider: "google",
         });
-        console.log(data);
+        // console.log(data);
     };
 
     const handleGithubSignIn = async() => {
         const data = await authClient.signIn.social({
             provider: "github"
         });
-        console.log(data);
+        // console.log(data);
     }
+    
     return (
         <div>
             <h2 className="font-bold text-lg ">Login With</h2>
