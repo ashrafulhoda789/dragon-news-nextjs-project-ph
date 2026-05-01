@@ -29,6 +29,13 @@ const LoginPage = () => {
             callbackURL: "/",
         });
 
+        if (error) {
+            alert(`${error.message}`);
+        }
+        else {
+            alert('SignUp successfull');
+        }
+
         // console.log(res, error);
     }
 

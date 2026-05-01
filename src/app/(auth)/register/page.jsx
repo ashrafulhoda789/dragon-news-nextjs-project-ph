@@ -30,7 +30,7 @@ const RegisterPage = () => {
             callbackURL: "/",
         });
 
-        console.log(res, error);
+        // console.log(res, error);
         if (error) {
             alert(`${error.message}`);
         }
