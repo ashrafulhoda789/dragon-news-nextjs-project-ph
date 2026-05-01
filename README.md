@@ -79,6 +79,8 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/bui
     8. setup for login
     9. Showed user data in Navbar dynamically using useSession()
     10. password see button add and toggle
+    11. add google sign In and Github sign In
+
 
     
  -->
